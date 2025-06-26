@@ -6,27 +6,29 @@ A simple full-stack project using **Flask**, **MySQL**, and **Docker Compose** t
 
 ## 🐳 Features
 
-- 🐍 Python Flask web server  
-- 🗄️ MySQL 8.0 database  
-- 📊 Auto-import Titanic data from CSV  
-- 🌐 Web-based viewer (or JSON API only)  
-- 📦 One-command setup with Docker Compose  
+- 🐍 Python Flask web server
+- 🗄️ MySQL 8.0 database
+- 📊 Auto-import Titanic data from CSV
+- 🌐 Web-based viewer (or JSON API only)
+- 📦 One-command setup with Docker Compose
 
 ---
 
 ## 📁 Project Structure
 
+```
 AIPE_group5/
 │
 ├── app/
-│ ├── app.py # Flask backend logic
-│ ├── my_titanic.csv # Titanic CSV dataset
-│ └── templates/index.html # (Optional) HTML table view
+│   ├── app.py                # Flask backend logic
+│   ├── my_titanic.csv        # Titanic CSV dataset
+│   └── templates/index.html  # (Optional) HTML table view
 │
-├── init.sql # SQL to define passengers table
-├── Dockerfile # For Flask server build
-├── docker-compose.yml # Compose config for web + MySQL
-└── README.md # You are here
+├── init.sql                  # SQL to define `passengers` table
+├── Dockerfile                # For Flask server build
+├── docker-compose.yml        # Compose config for web + MySQL
+└── README.md                 # You are here
+```
 
 ---
 
@@ -38,9 +40,10 @@ AIPE_group5/
 git clone https://github.com/<your-username>/AIPE_group5.git
 cd AIPE_group5
 docker-compose up
+```
 
-Then visit http://localhost:9999
-Or replace localhost with your server's IP.
+Then visit [http://localhost:9999](http://localhost:9999)  
+Or replace `localhost` with your server's IP.
 
-
+---
 
